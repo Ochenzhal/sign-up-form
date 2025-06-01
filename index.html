@@ -6,5 +6,70 @@
     <title>Sign-up form</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="sec-one">
+      <div class="title-container">
+        <h1 class="logo">ODIN</h1>
+      </div>
+      <p class="credits">
+        Photo by
+        <a
+          href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Halie West</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash</a
+        >
+      </p>
+    </section>
+    <section class="sec-two">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.<br />Sign up
+        <em>now</em> to get started
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="/index.html" method="post">
+        <div class="form-container">
+          <p>Let's do this!</p>
+          <p>
+            <span>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" />
+            </span>
+            <span>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" />
+            </span>
+          </p>
+          <p>
+            <span>
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </span>
+            <span>
+              <label for="tel">PHONE NUMBER</label>
+              <input type="tel" name="tel" id="tel" />
+            </span>
+          </p>
+          <p>
+            <span>
+              <label for="pswrd">PASSWORD</label>
+              <input type="password" name="pswrd" id="pswrd" />
+            </span>
+            <span>
+              <label for="confirm-pswrd">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm-pswrd" id="confirm-pswrd" />
+            </span>
+          </p>
+          <p>
+            <button type="button">Create account</button>
+          </p>
+        </div>
+      </form>
+      <p>Already have an account? <a href="/index.html">Log In</a></p>
+    </section>
+  </body>
 </html>
