@@ -70,6 +70,7 @@ h6 {
 p {
   text-wrap: pretty;
 }
+
 h1,
 h2,
 h3,
@@ -85,3 +86,101 @@ h6 {
 }
 
 /* Form styling */
+body {
+  font-family: 'afta_sansregular', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.form-container {
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Section one, left side */
+.sec-one {
+  background-image: url(/Images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  min-width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec-one .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  margin-top: 40%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.sec-one .title-container img {
+  height: 120px;
+}
+
+.sec-one .title-container h1 {
+  font-family: 'norsebold';
+  color: white;
+  font-size: 6rem;
+}
+
+.sec-one .credits {
+  justify-self: flex-end;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.sec-one .credits a {
+  color: white;
+}
+
+/* Section two, right side */
+.sec-two {
+  min-width: 65%;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+}
+
+form .input-container {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .input-container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form .input-container input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}

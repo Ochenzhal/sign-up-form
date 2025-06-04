@@ -7,69 +7,70 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <section class="sec-one">
-      <div class="title-container">
-        <h1 class="logo">ODIN</h1>
+    <div class="form-container">
+      <div class="sec-one">
+        <div class="title-container">
+          <img src="/Images/odin-lined.png" alt="Odin logo">
+          <h1>ODIN</h1>
+        </div>
+        <p class="credits">
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </p>
       </div>
-      <p class="credits">
-        Photo by
-        <a
-          href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-          >Halie West</a
-        >
-        on
-        <a
-          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-          >Unsplash</a
-        >
-      </p>
-    </section>
-    <section class="sec-two">
-      <p>
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams.<br />Sign up
-        <em>now</em> to get started
-      </p>
-      <p>You <em>know</em> you want to.</p>
-      <form action="/index.html" method="post">
-        <div class="form-container">
-          <p>Let's do this!</p>
+      <div class="sec-two">
+        <div class="text-container">
           <p>
-            <span>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.<br />Sign
+            up <em>now</em> to get started
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form">
+          <div>Let's do this!</div>
+          <form action="/index.html" method="post">
+
+            <div class="input-container">
               <label for="first-name">FIRST NAME</label>
               <input type="text" name="first-name" id="first-name" />
-            </span>
-            <span>
+            </div class="input-container">
+            <div class="input-container">
               <label for="last-name">LAST NAME</label>
               <input type="text" name="last-name" id="last-name" />
-            </span>
-          </p>
-          <p>
-            <span>
+            </div class="input-container">
+
+            <div class="input-container">
               <label for="email">EMAIL</label>
               <input type="email" name="email" id="email" />
-            </span>
-            <span>
+            </div class="input-container">
+            <div class="input-container">
               <label for="tel">PHONE NUMBER</label>
               <input type="tel" name="tel" id="tel" />
-            </span>
-          </p>
-          <p>
-            <span>
+            </div class="input-container">
+
+            <div class="input-container">
               <label for="pswrd">PASSWORD</label>
               <input type="password" name="pswrd" id="pswrd" />
-            </span>
-            <span>
+            </div class="input-container">
+            <div class="input-container">
               <label for="confirm-pswrd">CONFIRM PASSWORD</label>
               <input type="password" name="confirm-pswrd" id="confirm-pswrd" />
-            </span>
-          </p>
-          <p>
+            </div class="input-container">
+
             <button type="button">Create account</button>
-          </p>
+          </form>
         </div>
-      </form>
-      <p>Already have an account? <a href="/index.html">Log In</a></p>
-    </section>
+        <div>Already have an account? <a href="/index.html">Log In</a></div>
+      </div>
+    </div>
   </body>
 </html>
