@@ -148,10 +148,12 @@ body {
 
 /* Section two, right side */
 .sec-two {
+  font-family: 'arimoregular';
   min-width: 65%;
   background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 50px;
 }
 
 form {
@@ -160,6 +162,17 @@ form {
   justify-content: space-between;
   height: 100%;
   width: 70%;
+}
+
+.text-container {
+  font-weight: 500;
+  font-size: 22px;
+  max-width: 60ch;
+  margin-top: 150px;
+}
+
+.text-container p:last-child {
+  margin-top: 25px;
 }
 
 form .input-container {
