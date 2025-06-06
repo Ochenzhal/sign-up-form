@@ -150,10 +150,10 @@ body {
 .sec-two {
   font-family: 'arimoregular';
   min-width: 65%;
-  background-color: lightgray;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 form {
@@ -169,10 +169,19 @@ form {
   font-size: 22px;
   max-width: 60ch;
   margin-top: 150px;
+  height: fit-content;
+  padding-left: 50px;
 }
 
 .text-container p:last-child {
   margin-top: 25px;
+}
+
+.form {
+  position: relative;
+  height: fit-content;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
 }
 
 form .input-container {
@@ -182,12 +191,12 @@ form .input-container {
 
 form .input-container label {
   display: block;
-  font-weight: 500;
+  font-size: 12px;
   margin-bottom: 5px;
 }
 
 form .input-container input {
-  height: 45px;
+  height: 40px;
   width: 100%;
   outline: none;
   font-size: 16px;
@@ -196,4 +205,39 @@ form .input-container input {
   border: 1px solid #ccc;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
+}
+
+div.form > div {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+form button {
+  position: absolute;
+  top: 370px;
+  height: 40px;
+  width: 250px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form button:hover {
+  border: 1px solid #9b59b6;
+  border-bottom-width: 2px;
+  background: white;
+  color: #9b59b6;
+  transition: all 0.5s ease;
+}
+
+.sec-two div:last-child {
+  padding-left: 50px;
+}
+
+.sec-two div:last-child a {
+  color: #9b59b6;
+  text-decoration: none;
 }
